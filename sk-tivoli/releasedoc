@@ -1,0 +1,61 @@
+= Release documentation =
+
+== Versioning description ==
+
+1. First digit: MAJOR version when you make big update that likely breaks the backwards compatibility.
+2. Second digit: MINOR version when you add new functionality and features.
+3. Third digit: PATCH version when you make bug fixes.
+
+! Remember to update version.php with the correct version number, located in the theme folder.
+! Remember to create a new release and add the same information as below about the release.
+
+http://semver.org/
+
+== Version 1.12.0 ==
+
+=== MINOR ===
+* Option to add meta description
+* Extended search for "role/title"
+* Added option for block to have text printed on image.
+* Feature to add custom labels/titles for contact cards.
+* Added icon for external links in link list.
+
+=== PATCH/FIX ===
+* Changed default value for news on template page-advanced.
+
+
+== Version 1.7.0 ==
+* Prepared to remove plugin location-nav-menu-for-acf
+
+== Version 1.6.0 ==
+* SSL corrections for CDN
+
+== Version 1.5.1 ==
+* Bugfix for show more trigger on search result page.
+
+== Version 1.5.0 ==
+
+=== MINOR ===
+* Language support added to make it possible to use mo/po files for translate or changing phrases without hacking the theme.
+* Added filters to alter the search queries for the custom post types.
+
+=== PATCH ===
+* Fixed notice error
+
+
+== Version 1.3.0 ==
+
+=== MINOR ===
+* Added theme colouring settings.
+* Added top navbar to be visible in mobile navigation.
+* Possibility to use Google Analytics.
+
+=== PATCH ===
+* Missing ACF Field for block type image
+* Removed some colours that where specifically for sundsvall.se
+* Fix to show mobile navigation when navigation is not used.
+* Closed some notice for undefined variables.
+
+
+== Version 1.0.0 ==
+First release, starting at 1.0.0
